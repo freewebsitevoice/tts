@@ -1,22 +1,4 @@
-<!-- WebsiteVoice Widget -->
-					(function (d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id)) return;
-						js = d.createElement(s); js.id = id;
-						js.src = "https://websitevoice.com/js/widget.js";
-						js.async = true;
-						fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'websitevoice-sdk'));
-
-
-					window.wvSettings = {
-						siteId: 'YOUR_WEBSITEVOICE_SITE_ID',
-						voice: 'en-US-JennyNeural',
-						language: 'en-US'
-					};
-			
-    <!-- Web Speech API without Highlighting -->
-
+    <script>
         const synth = window.speechSynthesis;
         let utterance = null;
         let isPlaying = false;
@@ -107,3 +89,4 @@
                 }
             }
         });
+    </script>
