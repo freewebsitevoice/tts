@@ -10,7 +10,6 @@
 </script>
 <script>
     window.wvSettings = {
-        siteId: 'YOUR_WEBSITEVOICE_SITE_ID',
         voice: 'en-US-JennyNeural',
         language: 'en-US'
     };
